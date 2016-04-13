@@ -1,0 +1,40 @@
+
+ body {
+        font-family: calibri, verdana, serif;
+        font-size: 1em;
+        width: 800px;
+        margin: auto;
+        align-content: center;
+        background-color: lightgrey;
+      }
+nav {
+    text-align: center;
+    padding: 30px;
+    background-color: dimgrey;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav > a {
+    color: whitesmoke;
+    margin: 40px;
+}
+
+nav>a.active {
+    font-weight: 700;
+}
+
+.main-link {
+    font-weight: 600;
+}
+
+#homePageLink {
+    padding: 5px;
+}
+
+img {
+    height: 200px;
+    width: auto;
+}
